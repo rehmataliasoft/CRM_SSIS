@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Dynamics CRM Connection Manager"
+  DTS:DTSID="{BD1997B3-38E6-48CD-A05E-ED9EF7B4A8AA}"
+  DTS:CreationName="DynamicsCRM">
+  <DTS:ObjectData>
+    <CrmConnectionManager
+      ConnectionString="AuthenticationType=ActiveDirectory;ServiceEndpoint=WebAPI;UserName=mumair;Domain=gl.local;ServerUrl=https://wla-dev-crm-16/GoldlineDynamics/;ProxyUsername=;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;BypassProxyOnLocal=False;HomeRealmUri=;ApiVersion=;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False;TimezoneConversionEngine=Auto"
+      ConnectByProxy="False">
+      <Password
+        Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZylzS6wFKU2q87Ymv6fTaAAAAAACAAAAAAADZgAAwAAAABAAAAA4oQk7A+zelnNWoY6sAZ6pAAAAAASAAACgAAAAEAAAAJK6KLhKWPMebH8q3Vf0wWRgAAAANoY0ua0BnzB2XeOQB6Jkx47DpUBUbWPn9pxSzbGHMjq0zGpvQknCNfUpVckAicLlYrJ2Ocjo7SnnFZMrA6XJAtoI2SnCW0IzzhKKYRAl5B95kj3RK9UzSAyxJpwu2CChFAAAALk77V1kN9oqrs4iJxdYFOarRmIo</Password>
+    </CrmConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

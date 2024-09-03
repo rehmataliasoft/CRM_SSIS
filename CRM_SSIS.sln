@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "CRM_SSIS", "CRM_SSIS\CRM_SSIS.dtproj", "{18BED37E-72D8-4880-89D3-615E69BC289E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BED37E-72D8-4880-89D3-615E69BC289E}.Development|Default.ActiveCfg = Development
+		{18BED37E-72D8-4880-89D3-615E69BC289E}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC83EC18-6B83-42B0-BC28-5C751D97B170}
+	EndGlobalSection
+EndGlobal

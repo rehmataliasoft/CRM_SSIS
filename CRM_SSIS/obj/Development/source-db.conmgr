@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="smc-dev-sql-01.Goldline_MSCRM"
+  DTS:DTSID="{D2921440-AD8E-407E-8CC7-68EC32ADD395}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=smc-dev-sql-01;Initial Catalog=Goldline_MSCRM;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{D2921440-AD8E-407E-8CC7-68EC32ADD395}smc-dev-sql-01.Goldline_MSCRM;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
